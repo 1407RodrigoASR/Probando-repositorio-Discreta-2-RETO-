@@ -261,7 +261,11 @@ void guardarJugadoresCSV(ListaJugadores *lista) {
     archivo.close();
     cout << "\n[V] Jugadores exportados exitosamente a 'jugadores.csv'.\n";
 }
+int n, m;
+cout << "ingrese el primer número: ", cin >> n;
+cout << "ingrese el segundo número: ", cin >> m;
 
+cout << "el resultado es: " << n+m << endl;
 //=====================================================
 // MÓDULO COLA (PARTIDAS)
 //=====================================================
