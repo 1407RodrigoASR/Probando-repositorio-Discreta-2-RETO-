@@ -216,6 +216,7 @@ bool retirarJugador(ListaJugadores* lista) {
     cout << "\n[X] No se encontro el ID.\n";
     return false;
 }
+cout << "soy muy goshu causha " << endl;
 
 void mostrarJugadores(ListaJugadores *lista) {
     if(lista->tamano == 0) {
