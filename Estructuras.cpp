@@ -74,7 +74,7 @@ int buscarJugador(ListaJugadores *lista, int id) {
     }
     return -1;
 }
-
+AAEA CAUSITA 
 void buscarJugadorUI(ListaJugadores *lista) {
     if(lista->tamano == 0) {
         cout << "\n[!] No existen jugadores registrados.\n";
