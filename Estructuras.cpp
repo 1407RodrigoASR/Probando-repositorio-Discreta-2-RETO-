@@ -287,7 +287,7 @@ void encolarPartida(ColaPartidas *cola, Partida partida) {
     cola->final++;
     cola->elementos[cola->final] = partida;
 }
-
+cout << "GAAAAAAAAAAAAAAAA" << endl;
 Partida desencolarPartida(ColaPartidas *cola) {
     Partida p;
     if(colaVacia(cola)) {
